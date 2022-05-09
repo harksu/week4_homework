@@ -8,13 +8,12 @@ function App() {
   return (
     <div>
       <BackGround>
-        <Information name="face"></Information>
-        <Information name="major"></Information>
-        <Information name="habit"></Information>
-        <Information name="mbti"></Information>
-        <Information name="instar"></Information>
+        <Information name="face" link="false"></Information>
+        <Information name="major" link="false"></Information>
+        <Information name="habit" link="false"></Information>
+        <Information name="mbti" link="false"></Information>
+        <Information name="instar" link="true"></Information>
         <Main></Main>
-        <OpenMain></OpenMain>
       </BackGround>
     </div>
 
